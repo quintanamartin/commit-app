@@ -3,7 +3,7 @@ export interface Commits {
   commit: {
     message: string;
     author: {
-      data: string;
+      date: string;
       email: string;
       name: string;
     };

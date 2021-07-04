@@ -9,7 +9,7 @@ function App() {
     <>
       <Flex>
         <VStack w="100%">
-          <Header />
+          <Header title="Commit App!" />
           <Main />
           <Footer />
         </VStack>

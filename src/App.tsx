@@ -1,23 +1,15 @@
-import {Box} from "@chakra-ui/layout";
 import React from "react";
 
+import Footer from "./ui/Footer";
+import Header from "./ui/Header";
+import Main from "./ui/Main";
 function App() {
   return (
-    <Box className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Learn React
-        </a>
-      </header>
-    </Box>
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
 }
 

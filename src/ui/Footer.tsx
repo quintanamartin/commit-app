@@ -1,11 +1,9 @@
+import React from "react";
 import {Box, Text} from "@chakra-ui/layout";
 import {ButtonGroup, IconButton, Stack} from "@chakra-ui/react";
 import {FaGithub, FaLinkedin, FaTwitter} from "react-icons/fa";
 
-FaLinkedin;
-import React from "react";
-
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <Box as="footer" mx="auto" w="100%">
       <Stack>

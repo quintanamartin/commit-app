@@ -1,3 +1,4 @@
+import {Flex, VStack} from "@chakra-ui/react";
 import React from "react";
 
 import Footer from "./ui/Footer";
@@ -6,9 +7,13 @@ import Main from "./ui/Main";
 function App() {
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
+      <Flex>
+        <VStack w="100%">
+          <Header />
+          <Main />
+          <Footer />
+        </VStack>
+      </Flex>
     </>
   );
 }

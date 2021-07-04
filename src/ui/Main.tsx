@@ -1,3 +1,4 @@
+import {Box} from "@chakra-ui/layout";
 import React, {useEffect} from "react";
 
 import api from "../api";
@@ -9,8 +10,9 @@ const Main = () => {
   useEffect(() => {
     api("quintanamartin", "commit-app").then((res) => setCommits(res));
   }, []);
+  console.log(commits);
 
-  return <>Main works</>;
+  return <Box>Main works</Box>;
 };
 
 export default Main;

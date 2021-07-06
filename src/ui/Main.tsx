@@ -14,7 +14,6 @@ const Main: React.FC = () => {
 
   return (
     <Box>
-      Main works
       <Commit commits={commits} />
     </Box>
   );

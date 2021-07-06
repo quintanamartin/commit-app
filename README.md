@@ -13,6 +13,8 @@
 ## Install
 
 ```sh
+git clone https://github.com/quintanamartin/commit-app.git
+cd commit-app
 npm install
 ```
 
@@ -20,6 +22,12 @@ npm install
 
 ```sh
 npm run start
+```
+
+## Comments
+
+```sh
+This app has been created with React, Typescript and Chakra UI. If you want to know some more about Chakra, check this out: https://chakra-ui.com/
 ```
 
 

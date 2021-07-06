@@ -27,7 +27,7 @@ npm run start
 ## Comments
 
 ```sh
-This app has been created with React, Typescript and Chakra UI. If you want to know some more about Chakra, visit their [website](https://chakra-ui.com/)
+This app has been created with React, Typescript and Chakra UI.
 ```
 
 
